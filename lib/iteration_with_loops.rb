@@ -10,10 +10,10 @@ def find_min_in_nested_arrays(src)
           end 
        elemnt_index += 1 
      end
-     new_src << smallest_number
+     outer_results << smallest_number
      row_index +=1
   end
-p src
+p outer_results
 end
 
  # src will be an array of arrays of integers
