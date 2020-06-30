@@ -1,5 +1,5 @@
 def find_min_in_nested_arrays(src)
-    new_src =[]
+    outer_results =[]
     row_index = 0 
   while row_index < src.count do 
       elemnt_index = 0 
